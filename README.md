@@ -22,15 +22,44 @@ All implementation, experimentation, and evaluation are contained within a singl
 ### Prerequisites
 Install the following dependencies:
 ```bash
-pip install pandas numpy scikit-learn jupyter
+pip install pandas numpy scikit-learn matplotlib seaborn scipy imblearn joblib jupyter
+```
 
-### Running the Notebook
+Install the boosting algorithms:
+- XGBoost Version: 2.1.4
+- CatBoost Version: 1.2.8
+- LightGBM Version: 4.6.0
 
-## Clone the Repository
+```
+pip install xgboost==2.1.4
+pip install catboost==1.2.8
+pip install lightgbm==4.6.0
+```
+or 
+```
+conda install -c conda-forge xgboost=2.1.4
+conda install -c conda-forge catboost=1.2.8
+conda install -c conda-forge lightgbm=4.6.0
+```
+## Dataset
+
+The dataset used in this project is sourced from Mendeley Data: https://data.mendeley.com/datasets/br82d4xkj7/1
+- Dataset Title: Mental Health dataset based on DASS-21
+
+- The dataset is provided in CSV format and must be placed in the project directory
+
+## Running the Notebook
+
+### Clone the Repository
 git clone https://github.com/carleoj/intelligent_systems_mini-project.git
 
-## Navigate to the project folder and launch Jupyter:
+### Navigate to the project folder and launch Jupyter:
 cd intelligent_systems_mini-project
 jupyter notebook
 
-### Open DASS Boosting.ipynb and run all cells to reproduce the experiment.
+- #### Open DASS Boosting.ipynb and run all cells to reproduce the experiment.
+
+
+
+Regards,
+Carl P.
