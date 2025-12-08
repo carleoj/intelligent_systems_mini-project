@@ -25,7 +25,7 @@ Install the following dependencies:
 pip install pandas numpy scikit-learn matplotlib seaborn scipy imblearn joblib jupyter
 ```
 
-### Algorithms
+## Algorithms
 
 Install the boosting algorithms:
 - XGBoost Version: 2.1.4
