@@ -1,10 +1,10 @@
 # Intelligent Systems Mini-Project
 
 A machine learning mini-project developed for the course **CS 003 – Intelligent Systems**.  
-This repository contains an experimental study that evaluates boosting-based classification models on stress-related questionnaire data.
+This repository contains an experimental study that evaluates boosting-based classification models on the DASS-21 questionnaire data.
 
 ## Overview
-This project explores how different boosting algorithms perform on a dataset derived from the Stress subscale of a psychological questionnaire.  
+This project explores how different boosting algorithms perform on a dataset derived from the DASS-21 questionnaire.  
 All implementation, experimentation, and evaluation are contained within a single Jupyter Notebook.
 
 ## Contents
