@@ -75,6 +75,27 @@ jupyter notebook
 
 - #### Open DASS Boosting.ipynb and run all cells to reproduce the experiment.
 
+## Project Structure
+1. Library Imports
+2. Data Loading
+3. Data Preprocessing
+4. Exploratory Data Analysis
+5. Setting Up Boosting Models
+6. Defining Hyperparameter Oprimization (HPO) Search Space
+7. Train and Evaluate Function Definition
+8. Stress Prediction w/o HPO
+9. Model Training and Evaluation
+10. Stress Prediction w/ HPO
+11. Model Training and Evaluation
+12. Anxiety Prediction w/o HPO
+13. Model Training and Evaluation
+14. Anxiety Prediction w/ HPO
+15. Model Training and Evaluation
+16. Depression Prediction w/o HPO
+17. Model Training and Evaluation
+18. Depression Prediction w/ HPO
+19. Model Training and Evaluation
+20. Feature Importance Analysis (Stress, Anxiety, Depression)
 
 
 ### Author
