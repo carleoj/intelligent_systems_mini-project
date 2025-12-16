@@ -70,12 +70,13 @@ The dataset used in this project is sourced from Mendeley Data: https://data.men
 git clone https://github.com/carleoj/intelligent_systems_mini-project.git
 
 ### Navigate to your project folder and launch Jupyter:
-cd intelligent_systems_mini-project
-jupyter notebook
+Ex.:
+- cd intelligent_systems_mini-project
+- jupyter notebook
 
 - #### Open DASS Boosting.ipynb and run all cells to reproduce the experiment.
 
-## Project Structure
+## Notebook Structure
 1. Library Imports
 2. Data Loading
 3. Data Preprocessing
