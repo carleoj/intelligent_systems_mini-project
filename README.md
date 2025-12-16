@@ -12,17 +12,31 @@ All implementation, experimentation, and evaluation are contained within a singl
 - Supporting Python and ML libraries (imported inside the notebook)
 
 ## Built With
-- Python  
-- pandas, numpy – data handling  
-- scikit-learn – machine learning models  
-- Jupyter Notebook – experiment environment
+Python – Core programming language used for implementation and experimentation
+pandas (v2.3.1) – Tabular data manipulation, preprocessing, and analysis
+NumPy (v2.0.2) – Numerical computing and array-based operations
+scikit-learn (v1.6.1) – Machine learning models, evaluation metrics, and preprocessing utilities
+Matplotlib (v3.9.4) – Data visualization and plotting of experimental results
+Seaborn (v0.13.2) – Statistical data visualization built on top of Matplotlib
+SciPy (v1.13.1) – Scientific computing utilities, including optimization and statistical functions
+imbalanced-learn (v0.0) – Handling class imbalance through resampling techniques (e.g., SMOTE)
+Joblib (v1.5.1) – Model serialization and parallel computation support
+Jupyter Notebook (v7.4.5) – Interactive development and experimentation environment
 
 ## Getting Started
 
 ### Prerequisites
 Install the following dependencies:
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn scipy imblearn joblib jupyter
+pip install pandas==2.3.1
+pip install numpy==2.0.2
+pip install scikit-learn==1.6.1
+pip install matplotlib==3.9.4
+pip install seaborn==0.13.2
+pip install scipy==1.13.1
+pip install imblearn==0.0
+pip install joblib==1.5.1
+pip install notebook==7.4.5
 ```
 
 ## Algorithms
