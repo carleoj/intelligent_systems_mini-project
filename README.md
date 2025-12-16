@@ -4,7 +4,7 @@ A machine learning mini-project developed for the course **CS 003 – Intelligen
 This repository contains an experimental study that evaluates XGBoost, CatBoost, and LightGBM classification models on the DASS-21 questionnaire data.
 
 ## Overview
-This project explores how different boosting algorithms perform on a dataset derived from the DASS-21 questionnaire.  
+This project explores how XGBoost, CatBoost, and LightGBM algorithms perform on a dataset derived from the DASS-21 questionnaire.  
 All implementation, experimentation, and evaluation are contained within a single Jupyter Notebook.
 
 ## Contents
@@ -83,20 +83,21 @@ jupyter notebook
 5. Setting Up Boosting Models
 6. Defining Hyperparameter Oprimization (HPO) Search Space
 7. Train and Evaluate Function Definition
-8. Stress Prediction w/o HPO
+8. Stress Prediction without HPO
 9. Model Training and Evaluation
-10. Stress Prediction w/ HPO
+10. Stress Prediction with HPO
 11. Model Training and Evaluation
-12. Anxiety Prediction w/o HPO
+12. Anxiety Prediction without HPO
 13. Model Training and Evaluation
-14. Anxiety Prediction w/ HPO
+14. Anxiety Prediction with HPO
 15. Model Training and Evaluation
-16. Depression Prediction w/o HPO
+16. Depression Prediction without HPO
 17. Model Training and Evaluation
-18. Depression Prediction w/ HPO
+18. Depression Prediction with HPO
 19. Model Training and Evaluation
 20. Feature Importance Analysis (Stress, Anxiety, Depression)
 
+---
 
 ### Author
 Carl P.
