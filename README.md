@@ -76,6 +76,20 @@ Ex.:
 
 - #### Open DASS Boosting.ipynb and run all cells to reproduce the experiment.
 
+# Embedding the Prediction Model 
+- the flask_app python file is an example on how to use the DAS prediction models for each subscale
+- this contains the following route:
+
+1. /predict_stress
+2. /predict_anxiety
+3. /predict_depression
+
+- All have the POST method and requires the body (JSON data)
+- The body should contain the array values (arranged seven feature values) in each subscale.
+- Ex.: [1, 2, 0, 2, 3, 3, 1]
+
+- Each route returns the predicted corresponding severity level (1-5). 
+
 ## Notebook Structure
 1. Library Imports
 2. Data Loading
