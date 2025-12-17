@@ -76,7 +76,7 @@ Ex.:
 
 - #### Open DASS Boosting.ipynb and run all cells to reproduce the experiment.
 
-# Embedding the Prediction Model 
+## Embedding the Prediction Model 
 - the flask_app python file is an example on how to use the DAS prediction models for each subscale
 - this contains the following route:
 
