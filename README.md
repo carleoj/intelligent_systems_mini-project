@@ -1,4 +1,4 @@
-# Depression, Anxiety, and Stress Level Prediction using XGBoost, CatBoost, and LightGBM on the DASS-21 Data
+# Depression, Anxiety, and Stress Level Prediction using XGBoost, CatBoost, and LightGBM on a DASS-21 Data
 
 A machine learning mini-project developed for the course **CS 003 – Intelligent Systems**.  
 This repository contains an experimental study that evaluates XGBoost, CatBoost, and LightGBM classification models on the DASS-21 questionnaire data.
